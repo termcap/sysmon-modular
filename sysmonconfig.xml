@@ -763,6 +763,7 @@
         <Image name="technique_id=T1218,technique_name=Signed Binary Proxy Execution" condition="image">replace.exe</Image>
         <DestinationPort name="technique_id=T1043,technique_name=Commonly Used Port" condition="is">1080</DestinationPort>
         <DestinationPort name="technique_id=T1043,technique_name=Commonly Used Port" condition="is">3128</DestinationPort>
+        <DestinationPort name="Outbound DNS Connection" condition="is">53</DestinationPort>
         <DestinationPort name="technique_id=T1043,technique_name=Commonly Used Port" condition="is">8080</DestinationPort>
         <DestinationPort name="technique_id=T1021,technique_name=Remote Services" condition="is">22</DestinationPort>
         <DestinationPort name="technique_id=T1021,technique_name=Remote Services" condition="is">23</DestinationPort>
